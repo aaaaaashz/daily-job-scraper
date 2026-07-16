@@ -1,4 +1,4 @@
-# GigsUp Daily Job Scraping Agent
+# Gigsup Daily Job Scraping Agent
 
 A scheduled Python service that collects focused skilled-trades jobs into PostgreSQL once per day. Matching and filtering read from the database instead of calling job boards during a user request.
 
@@ -170,14 +170,3 @@ python -m pytest -q
 ```
 
 Parser tests use saved HTML fixtures and run without internet access. GitHub Actions runs linting and tests on Python 3.11 and 3.12.
-
-## Repository hygiene
-
-Do not commit:
-
-- `.env`
-- database credentials
-- `.git` inside submitted ZIP files
-- `__pycache__`
-- `.pytest_cache`
-- logs
