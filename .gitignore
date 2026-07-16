@@ -1,21 +1,52 @@
-# Secrets
-.env
-.env.*
-!.env.example
-
 # Python
 __pycache__/
 *.py[cod]
-.pytest_cache/
-.ruff_cache/
-.mypy_cache/
-.coverage
-htmlcov/
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
+env/
 
-# Logs and local artifacts
-*.log
-*.zip
+# IDEs
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Mypy
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+tmp/
+temp/
