@@ -1,4 +1,4 @@
-# Gigsup Daily Job Scraping Agent
+# Daily Job Scraping Agent
 
 A scheduled Python service that collects focused skilled-trades jobs into PostgreSQL once per day. Matching and filtering read from the database instead of calling job boards during a user request.
 
